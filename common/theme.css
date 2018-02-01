@@ -1,0 +1,12 @@
+:root {
+  --color-primary: #ED9C60;
+  --color-secondary: #1F1FBF;
+  --color-white: #fff;
+
+  --font-primary: "Merriweather", serif;
+  --font-secondary: "Passion One", cursive;
+}
+
+html {
+  font-family: var(--font-primary);
+}
