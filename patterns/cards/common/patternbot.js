@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/chelseagibson/Desktop/Semester 3/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/cards
- * @version 1523983129744
+ * @version 1523983569953
  */
-const patternManifest_1523983129743 = {
+const patternManifest_1523983569953 = {
   "commonInfo": {
     "theme": [],
     "readme": {
@@ -401,5 +401,5 @@ const patternManifest_1523983129743 = {
   }
 };
 
-patternBotIncludes(patternManifest_1523983129743);
+patternBotIncludes(patternManifest_1523983569953);
 }());
