@@ -347,10 +347,10 @@ const patternBotIncludes = function (manifest) {
 
 /** 
  * Patternbot library manifest
- * /Users/chelseagibson/Desktop/Semester 3/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/cards
- * @version 1523983569953
+ * /Users/chelseagibson/Desktop/Semester 3/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns
+ * @version 1524109354288
  */
-const patternManifest_1523983569953 = {
+const patternManifest_1524109354288 = {
   "commonInfo": {
     "theme": [],
     "readme": {
@@ -401,5 +401,5 @@ const patternManifest_1523983569953 = {
   }
 };
 
-patternBotIncludes(patternManifest_1523983569953);
+patternBotIncludes(patternManifest_1524109354288);
 }());

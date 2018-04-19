@@ -1,6 +1,6 @@
 .btn {
-  background-color: var(--color-primary);
-  border-color: var(--color-primary);
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
 
   color: #fff;
 }
@@ -14,7 +14,7 @@
 
 .btn-ghost {
   background-color: transparent;
-  border-color: var(--color-primary);
+  border-color: var(--color-secondary);
 
-  color: var(--color-primary);
+  color: var(--color-secondary);
 }

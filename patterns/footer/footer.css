@@ -1,0 +1,11 @@
+p {
+  color: color: var(--color-white);
+}
+
+.social {
+  display: inline;
+}
+
+.footer {
+  background-color: var(--color-primary);
+}
