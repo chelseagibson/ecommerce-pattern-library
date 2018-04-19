@@ -215,6 +215,26 @@
                   </div>
                 </a>
               </li>
+              <li role="presentation">
+                <a class="gutter pad-t-1-4 pad-b-1-4 block" role="tab" aria-controls="products" href="#products">
+                  <div class="relative">
+                    <span>Products</span>
+                    <i class="icon i-18 absolute pin-cr">
+                      <svg><use xlink:href="#icon-active" /></svg>
+                    </i>
+                  </div>
+                </a>
+              </li>
+              <li role="presentation">
+                <a class="gutter pad-t-1-4 pad-b-1-4 block" role="tab" aria-controls="sections" href="#sections">
+                  <div class="relative">
+                    <span>Sections</span>
+                    <i class="icon i-18 absolute pin-cr">
+                      <svg><use xlink:href="#icon-active" /></svg>
+                    </i>
+                  </div>
+                </a>
+              </li>
           <li class="pad-t-1-2" role="presentation">
             <button class="nav-show-all gutter pad-t-1-4 pad-b-1-4 block kilo" id="nav-show-all" aria-pressed="false" title="Show all patterns" aria-label="Show all patterns">
               <span class="nav-show-all-wrap relative block">Show all</span>
@@ -227,9 +247,39 @@
         <nav class="nav mega">
           <ul class="list-group">
               <li>
+                <a class="gutter pad-t-1-4 pad-b-1-4 block page-pop" href="pages/checkout.html" target="_blank">
+                  <div class="relative">
+                    <span>Checkout</span>
+                    <i class="icon i-18 absolute pin-cr">
+                      <svg><use xlink:href="#icon-pop-out" /></svg>
+                    </i>
+                  </div>
+                </a>
+              </li>
+              <li>
                 <a class="gutter pad-t-1-4 pad-b-1-4 block page-pop" href="pages/home.html" target="_blank">
                   <div class="relative">
                     <span>Home</span>
+                    <i class="icon i-18 absolute pin-cr">
+                      <svg><use xlink:href="#icon-pop-out" /></svg>
+                    </i>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a class="gutter pad-t-1-4 pad-b-1-4 block page-pop" href="pages/order.html" target="_blank">
+                  <div class="relative">
+                    <span>Order</span>
+                    <i class="icon i-18 absolute pin-cr">
+                      <svg><use xlink:href="#icon-pop-out" /></svg>
+                    </i>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a class="gutter pad-t-1-4 pad-b-1-4 block page-pop" href="pages/products.html" target="_blank">
+                  <div class="relative">
+                    <span>Products</span>
                     <i class="icon i-18 absolute pin-cr">
                       <svg><use xlink:href="#icon-pop-out" /></svg>
                     </i>
@@ -830,7 +880,7 @@
   &lt;/div>
   &lt;div class="centered max-length pad-t-2 pad-b-2 gutter">
     &lt;h1 class="bannerh1 zetta">The best burger with cheese &lt;br>you will ever eat.&lt;/h1>
-    &lt;a class="btn mega center" href="#"> Order now&lt;/a>
+    &lt;a class="btn mega center" href="order.html"> Order now&lt;/a>
   &lt;/div>
 &lt;/div>
 </pre></code>
@@ -1239,7 +1289,7 @@
                 </i>
               </button>
               <code><pre id="cards-icon-card-code-sample-copy-chunk">&lt;div class="card icon-card island-1-2 text-center"&gt;
-  &lt;img class="img-flex" src="../../images/king-cheese.jpg" alt="">
+  &lt;img class="img-flex" src="../../images/placeholder.jpg" alt="">
   &lt;h2 class="push-1-4"> This is a card&lt;/h2>
   &lt;p class="push-0"> Lorem ipsum dolor sit amet, consectetur adipisicing elit.&lt;/p>
   &lt;a class="btn btn-ghost push-1-4" href="#"> See more options&lt;/a>
@@ -1517,35 +1567,6 @@
   &lt;aside>
     &lt;p class="micro pad-t-2">&#xA9; 2018 Royale w/ Cheese Company. All rights reserved.&lt;/p>
   &lt;/aside>
-  &lt;div class="social">
-    &lt;i class="icon i-16">
-          &lt;svg>&lt;use xlink:href="../../images/icon-facebook.svg"/>&lt;/svg>
-        &lt;/i>
-    &lt;i class="icon i-16">
-          &lt;svg>&lt;use xlink:href="../../images/icon-twitter.svg"/>&lt;/svg>
-        &lt;/i>
-    &lt;i class="icon i-16">
-          &lt;svg>&lt;use xlink:href="../../images/icon-snapchat.svg"/>&lt;/svg>
-        &lt;/i>
-    &lt;i class="icon i-16">
-          &lt;svg>&lt;use xlink:href="../../images/icon-instagram.svg"/>&lt;/svg>
-        &lt;/i>
-  &lt;/div>
-&lt;/div>
-
-&lt;div class="social">
-  &lt;i class="icon i-16">
-      &lt;svg>&lt;use xlink:href="../../images/icon-facebook.svg"/>&lt;/svg>
-    &lt;/i>
-  &lt;i class="icon i-16">
-      &lt;svg>&lt;use xlink:href="../../images/icon-twitter.svg"/>&lt;/svg>
-    &lt;/i>
-  &lt;i class="icon i-16">
-      &lt;svg>&lt;use xlink:href="../../images/icon-snapchat.svg"/>&lt;/svg>
-    &lt;/i>
-  &lt;i class="icon i-16">
-      &lt;svg>&lt;use xlink:href="../../images/icon-instagram.svg"/>&lt;/svg>
-    &lt;/i>
 &lt;/div>
 </pre></code>
             </div>
@@ -1562,6 +1583,8 @@
         <ol class="list-group-inline push-1-4 pad-b-1-4">
             <li><a href="#forms--checkboxes">Checkboxes</a></li>
             <li><a href="#forms--drop-down">Drop down</a></li>
+            <li><a href="#forms--fieldset">Fieldset</a></li>
+            <li><a href="#forms--radio-buttons-cheese">Radio buttons cheese</a></li>
             <li><a href="#forms--radio-buttons">Radio buttons</a></li>
             <li><a href="#forms--text-area">Text area</a></li>
         </ol>
@@ -1743,6 +1766,167 @@
           </div>
       </div>
     </div>
+    <div class="pattern-details " id="forms--fieldset" style="">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
+          <h3 class="pattern-name tera push-1-8">Fieldset</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="forms-fieldset-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="forms/fieldset" hidden>
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-copy"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/forms/fieldset.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+            </ul>
+        </div>
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="patterns/forms/fieldset.html" scrolling="no" onload="resizeIframe(this)"  ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="forms-fieldset-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#forms-fieldset-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              <code><pre id="forms-fieldset-code-sample-copy-chunk">&lt;form&gt;
+  &lt;fieldset>
+    &lt;legend> Credit Card Information&lt;/legend>
+    &lt;div>
+      &lt;label for="credit card number">Credit Card Number&lt;/label>
+      &lt;input id="credit card number">
+    &lt;/div>
+    &lt;div>
+      &lt;label for="date">Expiration Date&lt;/label>
+      &lt;input id="date">
+    &lt;/div>
+    &lt;div>
+      &lt;label for="cvv">CVV&lt;/label>
+      &lt;input id="cvv">
+    &lt;/div>
+  &lt;/fieldset>
+&lt;/form>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="pattern-details " id="forms--radio-buttons-cheese" style="">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
+          <h3 class="pattern-name tera push-1-8">Radio buttons cheese</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="forms-radio-buttons-cheese-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="forms/radio-buttons-cheese" hidden>
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-copy"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/forms/radio-buttons-cheese.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+            </ul>
+        </div>
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="patterns/forms/radio-buttons-cheese.html" scrolling="no" onload="resizeIframe(this)"  ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="forms-radio-buttons-cheese-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#forms-radio-buttons-cheese-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              <code><pre id="forms-radio-buttons-cheese-code-sample-copy-chunk">&lt;fieldset&gt;
+  &lt;legend>Choose your cheese&lt;/legend>
+
+  &lt;input type="radio" id="swiss" name="meat">
+  &lt;label for="swiss">Swiss&lt;/label>
+
+  &lt;input type="radio" id="oka" name="meat">
+  &lt;label for="oka">Oka&lt;/label>
+
+  &lt;input type="radio" id="american cheddar" name="meat">
+  &lt;label for="american cheddar">American Cheddar&lt;/label>
+
+  &lt;input type="radio" id="brie" name="meat">
+  &lt;label for="brie">Brie&lt;/label>
+
+  &lt;input type="radio" id="mozzarella" name="meat">
+  &lt;label for="mozzarella">Mozzarella&lt;/label>
+
+  &lt;input type="radio" id="gouda" name="meat">
+  &lt;label for="gouda">Gouda&lt;/label>
+
+  &lt;input type="radio" id="monterey jack" name="meat">
+  &lt;label for="monterey jack">Monterey Jack&lt;/label>
+&lt;/fieldset>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
     <div class="pattern-details " id="forms--radio-buttons" style="">
         <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
           <h3 class="pattern-name tera push-1-8">Radio buttons</h3>
@@ -1801,23 +1985,23 @@
               <code><pre id="forms-radio-buttons-code-sample-copy-chunk">&lt;fieldset&gt;
   &lt;legend>Choose your meat&lt;/legend>
 
-  &lt;input type="radio" id="beef" name="meat">
-  &lt;label for="beef">Beef&lt;/label>
+  &lt;input type="radio" id="option 1" name="meat">
+  &lt;label for="option 1">Beef&lt;/label>
 
-  &lt;input type="radio" id="pork" name="meat">
-  &lt;label for="pork">Pork&lt;/label>
+  &lt;input type="radio" id="option 2" name="meat">
+  &lt;label for="option 2">Elk&lt;/label>
 
-  &lt;input type="radio" id="deer" name="meat">
-  &lt;label for="deer">Deer&lt;/label>
+  &lt;input type="radio" id="option 3" name="meat">
+  &lt;label for="option 3">Turkey&lt;/label>
 
-  &lt;input type="radio" id="turkey" name="meat">
-  &lt;label for="turkey">Turkey&lt;/label>
+  &lt;input type="radio" id="option 4" name="meat">
+  &lt;label for="option 4">Pork&lt;/label>
 
-  &lt;input type="radio" id="elk" name="meat">
-  &lt;label for="elk">Elk&lt;/label>
+  &lt;input type="radio" id="option 5" name="meat">
+  &lt;label for="option 5">Deer&lt;/label>
 
-  &lt;input type="radio" id="bison" name="meat">
-  &lt;label for="bison">Bison&lt;/label>
+  &lt;input type="radio" id="option 6" name="meat">
+  &lt;label for="option 6">Bison&lt;/label>
 
   &lt;input type="radio" id="chicken" name="meat">
   &lt;label for="chicken">Chicken&lt;/label>
@@ -2104,6 +2288,190 @@
 
   
 
+
+</section>
+
+        <section class="pattern" id="products" role="tabpanel" hidden aria-hidden="true" style="">
+  <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative" style="">
+    <h2 class="pattern-name exa push-1-4" style="color: #fff; font-family: &quot;Passion One&quot;, cursive;">Products</h2>
+        <ul class="list-group-inline gutter absolute pin-cr">
+            <li>
+              <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="products-products-code-sample">
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-code"></use></svg>
+                </i>
+              </button>
+            </li>
+            <li>
+              <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="products/products" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+            </li>
+            <li>
+              <a class="center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/products/products.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-pop-out"></use></svg>
+                </i>
+              </a>
+            </li>
+        </ul>
+  </div>
+
+
+  
+
+    <div class="pattern-details " id="products--products" style="">
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="patterns/products/products.html" scrolling="no" onload="resizeIframe(this)"  ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="products-products-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#products-products-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              <code><pre id="products-products-code-sample-copy-chunk">&lt;div class="pad-b"&gt;
+  &lt;div class="push-0">
+    &lt;div class="embed embed-1by1">
+      &lt;img class="img-flex island" src="../../images/placeholder.jpg" alt="">
+    &lt;/div>
+    &lt;h1 class="text-center tera">Product Name&lt;/h1>
+    &lt;h5 class="text-center">Price&lt;/h5>
+    &lt;div class="island text-center">
+      &lt;a class="btn tera" href="order.html">Order now&lt;/a>
+    &lt;/div>
+  &lt;/div>
+&lt;/div>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+
+</section>
+
+        <section class="pattern" id="sections" role="tabpanel" hidden aria-hidden="true" style="">
+  <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative" style="">
+    <h2 class="pattern-name exa push-1-4" style="color: #fff; font-family: &quot;Passion One&quot;, cursive;">Sections</h2>
+        <ul class="list-group-inline gutter absolute pin-cr">
+            <li>
+              <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="sections-sections-code-sample">
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-code"></use></svg>
+                </i>
+              </button>
+            </li>
+            <li>
+              <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="sections/sections" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+            </li>
+            <li>
+              <a class="center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/sections/sections.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-pop-out"></use></svg>
+                </i>
+              </a>
+            </li>
+        </ul>
+  </div>
+
+
+  
+
+    <div class="pattern-details " id="sections--sections" style="">
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="patterns/sections/sections.html" scrolling="no" onload="resizeIframe(this)"  ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="sections-sections-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#sections-sections-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              <code><pre id="sections-sections-code-sample-copy-chunk">&lt;section class="social-section"&gt;
+  &lt;h6 class="text-center pad-t">Follow us on social media!
+  &lt;ul class="list-group-inline text-center">
+    &lt;li class="island">
+      &lt;a href="#">
+        &lt;i class="icon i-128">
+          &lt;svg>&lt;use xlink:href="../../images/icons.svg#facebook"/>&lt;/svg>
+        &lt;/i>
+      &lt;/a>
+    &lt;/li>
+
+    &lt;li class="island">
+      &lt;a href="#">
+        &lt;i class="icon i-128">
+          &lt;svg>&lt;use xlink:href="../../images/icons.svg#twitter"/>&lt;/svg>
+        &lt;/i>
+      &lt;/a>
+    &lt;/li>
+
+    &lt;li class="island">
+      &lt;a href="#">
+        &lt;i class="icon i-128">
+          &lt;svg>&lt;use xlink:href="../../images/icons.svg#snapchat"/>&lt;/svg>
+        &lt;/i>
+      &lt;/a>
+    &lt;/li>
+
+    &lt;li class="island">
+      &lt;a href="#">
+        &lt;i class="icon i-128">
+          &lt;svg>&lt;use xlink:href="../../images/icons.svg#instagram"/>&lt;/svg>
+        &lt;/i>
+      &lt;/a>
+    &lt;/li>
+  &lt;/ul>
+&lt;/h6>&lt;/section>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
 
 </section>
 

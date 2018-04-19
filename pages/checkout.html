@@ -2,30 +2,28 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Home</title>
+  <title>checkout</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <script src="../common/patternbot.js"></script>
 </head>
 <body>
 
   <script class="gutter" type="application/json" data-pattern="header/header"></script>
-  <div>
-    <script type="application/json" data-pattern="banners/banner"></script>
-  </div>
 
-  <div class="grid island-2">
-    <div class="unit xs-1 s-1 m-1-2 gutter pad-t-2 pad-b-2">
-      <script type="application/json" data-pattern="cards/icon-card">
-      </script>
-    </div>
-    <div class="unit xs-1 s-1 m-1-2 gutter pad-t-2 pad-b-2">
-      <script type="application/json" data-pattern="cards/icon-card">
-      </script>
-    </div>
+  <div class="unit xs-1 s-1 m-1-2">
+    <script type="application/json" data-pattern="forms/text-area"></script>
+  </div>
+  <div class="unit xs-1 s-1 m-1-2">
+    <script type="application/json" data-pattern="forms/drop-down"></script>
+  </div>
+  <div class="unit xs-1 s-1 m-1-2">
+    <script type="application/json" data-pattern="forms/fieldset"></script>
+  </div>
+  <div>
+    <a class="btn btn-light" href="#">Confirm Order</a>
   </div>
 
   <script type="application/json" data-pattern="footer/footer"></script>
   <script type="application/json" data-pattern="sections/sections"></script>
-
 </body>
 </html>

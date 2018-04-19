@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Products</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <script src="../common/patternbot.js"></script>
+</head>
+<body>
+
+  <script type="application/json" data-pattern="header/header"></script>
+
+  <div class="grid wrapper">
+    <div class="unit xs-1 s-1-2 m-1-2">
+      <script type="application/json" data-pattern="products/products">
+        {
+          "img[src]": "../images/queen-cheese.jpg",
+          "h1": "Queen w/ Cheese",
+          "h5": "$7.99"
+        }
+      </script>
+    </div>
+    <div class="unit xs-1 s-1-2 m-1-2">
+      <script type="application/json" data-pattern="products/products">
+        {
+          "img[src]": "../images/king-cheese.jpg",
+          "h1": "King w/ Cheese",
+          "h5": "$10.99"
+        }
+      </script>
+    </div>
+  </div>
+
+  <script type="application/json" data-pattern="footer/footer"></script>
+  <script type="application/json" data-pattern="sections/sections"></script>
+</body>
+</html>

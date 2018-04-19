@@ -1,3 +1,7 @@
 html {
-  color: var(--color-white);
+  color: var(--color-secondary);
+}
+
+label {
+  color: var(--color-secondary);
 }
