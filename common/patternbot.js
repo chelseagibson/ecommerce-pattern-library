@@ -444,9 +444,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library-chelseagibson
- * @version f339b400c30be6dfce4661454161b0a791c50ec1
+ * @version cffcf197b31949f2c1b463f78aebda6807ede06a
  */
-const patternManifest_f339b400c30be6dfce4661454161b0a791c50ec1 = {
+const patternManifest_cffcf197b31949f2c1b463f78aebda6807ede06a = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -672,6 +672,11 @@ const patternManifest_f339b400c30be6dfce4661454161b0a791c50ec1 = {
         "name": "order.html",
         "namePretty": "Order",
         "path": "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library-chelseagibson/pages/order.html"
+      },
+      {
+        "name": "product-details.html",
+        "namePretty": "Product details",
+        "path": "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library-chelseagibson/pages/product-details.html"
       },
       {
         "name": "products.html",
@@ -1002,5 +1007,5 @@ const patternManifest_f339b400c30be6dfce4661454161b0a791c50ec1 = {
   }
 };
 
-patternBotIncludes(patternManifest_f339b400c30be6dfce4661454161b0a791c50ec1);
+patternBotIncludes(patternManifest_cffcf197b31949f2c1b463f78aebda6807ede06a);
 }());
