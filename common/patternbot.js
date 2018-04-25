@@ -444,9 +444,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library-chelseagibson
- * @version e786706b1cc826188251e6dbfb6a2a0adb570ca2
+ * @version f339b400c30be6dfce4661454161b0a791c50ec1
  */
-const patternManifest_e786706b1cc826188251e6dbfb6a2a0adb570ca2 = {
+const patternManifest_f339b400c30be6dfce4661454161b0a791c50ec1 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -615,6 +615,12 @@ const patternManifest_e786706b1cc826188251e6dbfb6a2a0adb570ca2 = {
       "bodyRaw": "",
       "bodyBasic": ""
     },
+    "icons": [
+      "icon-facebook",
+      "icon-twitter",
+      "icon-snap",
+      "icon-insta"
+    ],
     "interfaceColours": {
       "primary": 0,
       "opposite": 255
@@ -628,7 +634,7 @@ const patternManifest_e786706b1cc826188251e6dbfb6a2a0adb570ca2 = {
       "theme": "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library-chelseagibson/common/theme.css"
     },
     "imagesParsable": {
-      "icons": false
+      "icons": "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library-chelseagibson/images/icons.svg"
     },
     "logos": {
       "sizeLarge": "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library-chelseagibson/images/logo-256.svg",
@@ -666,11 +672,6 @@ const patternManifest_e786706b1cc826188251e6dbfb6a2a0adb570ca2 = {
         "name": "order.html",
         "namePretty": "Order",
         "path": "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library-chelseagibson/pages/order.html"
-      },
-      {
-        "name": "product-details.html",
-        "namePretty": "Product details",
-        "path": "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library-chelseagibson/pages/product-details.html"
       },
       {
         "name": "products.html",
@@ -1001,5 +1002,5 @@ const patternManifest_e786706b1cc826188251e6dbfb6a2a0adb570ca2 = {
   }
 };
 
-patternBotIncludes(patternManifest_e786706b1cc826188251e6dbfb6a2a0adb570ca2);
+patternBotIncludes(patternManifest_f339b400c30be6dfce4661454161b0a791c50ec1);
 }());

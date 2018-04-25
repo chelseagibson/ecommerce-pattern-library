@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Product Details | Royal with cheese</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <script src="../common/patternbot.js"></script>
+</head>
+<body>
+
+  <script class="gutter" type="application/json" data-pattern="header/header"></script>
+  <div class="grid">
+    <div class="img-flex gutter-2 unit xs-1 s-1 m-1-2 l-1-2">
+      <img src="../../images/king-cheese.jpg" alt="">
+    </div>
+    <div class="gutter-2 unit xs-1 s-1 m-1-2 l-1-2">
+      <h4>King w/Cheese <br>7.99$</h4>
+      <p>2 juicy patties with a choice of meat of your choise, as well as your choice of cheese and fresh unlimited toppings. Haveing multiple delicious burgers on hand in you freezer ready to be warmed up doesn't get any better. Customer satisfaction is our guarantee or a full refund will be promised.</p>
+      <script type="application/json" data-pattern="buttons/light-btn">
+        Order now
+      </script>
+    </div>
+  </div>
+
+</body>
+</html>
