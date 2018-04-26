@@ -17,7 +17,7 @@
 }
 
 a {
-  text-decoration:  none;
+  text-decoration: none;
 }
 
 .nav .current::after {
@@ -42,4 +42,5 @@ a {
     justify-content: space-between;
     align-items: center;
   }
+
 }
