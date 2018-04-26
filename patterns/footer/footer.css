@@ -1,9 +1,6 @@
 p {
-  color: color: var(--color-white);
-}
-
-.social {
-  display: inline;
+  color: var(--color-white);
+  text-align: center;
 }
 
 .footer {
