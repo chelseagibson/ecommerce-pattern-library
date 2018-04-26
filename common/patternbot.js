@@ -444,9 +444,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/chelseagibson/Desktop/Semester 3/Semester 4/Web Dev IV/ecommerce-pattern-library
- * @version 254f4822c73977f4056d706ba29fd13b35640ab5
+ * @version f1a6d8d00bfef73fb0f6c4224b3dae6b5f4c4189
  */
-const patternManifest_254f4822c73977f4056d706ba29fd13b35640ab5 = {
+const patternManifest_f1a6d8d00bfef73fb0f6c4224b3dae6b5f4c4189 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -700,15 +700,7 @@ const patternManifest_254f4822c73977f4056d706ba29fd13b35640ab5 = {
           "localPath": "patterns/banners/banner.html"
         }
       ],
-      "md": [
-        {
-          "name": "readme",
-          "namePretty": "Readme",
-          "filename": "README",
-          "path": "/Users/chelseagibson/Desktop/Semester 3/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/banners/README.md",
-          "localPath": "patterns/banners/README.md"
-        }
-      ],
+      "md": [],
       "css": [
         {
           "name": "banner",
@@ -866,15 +858,7 @@ const patternManifest_254f4822c73977f4056d706ba29fd13b35640ab5 = {
           "localPath": "patterns/forms/text-area.html"
         }
       ],
-      "md": [
-        {
-          "name": "readme",
-          "namePretty": "Readme",
-          "filename": "README",
-          "path": "/Users/chelseagibson/Desktop/Semester 3/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/forms/README.md",
-          "localPath": "patterns/forms/README.md"
-        }
-      ],
+      "md": [],
       "css": [
         {
           "name": "forms",
@@ -1007,5 +991,5 @@ const patternManifest_254f4822c73977f4056d706ba29fd13b35640ab5 = {
   }
 };
 
-patternBotIncludes(patternManifest_254f4822c73977f4056d706ba29fd13b35640ab5);
+patternBotIncludes(patternManifest_f1a6d8d00bfef73fb0f6c4224b3dae6b5f4c4189);
 }());
