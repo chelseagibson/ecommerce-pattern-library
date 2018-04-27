@@ -444,9 +444,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/chelseagibson/Desktop/Semester 3/Semester 4/Web Dev IV/ecommerce-pattern-library
- * @version f1cf0042c0476ea5affceb17cbc7334dd51f889a
+ * @version 901b2631a58a9e23dc954d78eeae2b812b457d98
  */
-const patternManifest_f1cf0042c0476ea5affceb17cbc7334dd51f889a = {
+const patternManifest_901b2631a58a9e23dc954d78eeae2b812b457d98 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -798,7 +798,15 @@ const patternManifest_f1cf0042c0476ea5affceb17cbc7334dd51f889a = {
           "localPath": "patterns/footer/footer.html"
         }
       ],
-      "md": [],
+      "md": [
+        {
+          "name": "readme",
+          "namePretty": "Readme",
+          "filename": "README",
+          "path": "/Users/chelseagibson/Desktop/Semester 3/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/footer/README.md",
+          "localPath": "patterns/footer/README.md"
+        }
+      ],
       "css": [
         {
           "name": "footer",
@@ -851,7 +859,15 @@ const patternManifest_f1cf0042c0476ea5affceb17cbc7334dd51f889a = {
           "localPath": "patterns/forms/text-area.html"
         }
       ],
-      "md": [],
+      "md": [
+        {
+          "name": "readme",
+          "namePretty": "Readme",
+          "filename": "README",
+          "path": "/Users/chelseagibson/Desktop/Semester 3/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/forms/README.md",
+          "localPath": "patterns/forms/README.md"
+        }
+      ],
       "css": [
         {
           "name": "forms",
@@ -876,7 +892,15 @@ const patternManifest_f1cf0042c0476ea5affceb17cbc7334dd51f889a = {
           "localPath": "patterns/header/header.html"
         }
       ],
-      "md": [],
+      "md": [
+        {
+          "name": "readme",
+          "namePretty": "Readme",
+          "filename": "README",
+          "path": "/Users/chelseagibson/Desktop/Semester 3/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/header/README.md",
+          "localPath": "patterns/header/README.md"
+        }
+      ],
       "css": [
         {
           "name": "header",
@@ -901,7 +925,15 @@ const patternManifest_f1cf0042c0476ea5affceb17cbc7334dd51f889a = {
           "localPath": "patterns/navigations/navigation.html"
         }
       ],
-      "md": [],
+      "md": [
+        {
+          "name": "readme",
+          "namePretty": "Readme",
+          "filename": "README",
+          "path": "/Users/chelseagibson/Desktop/Semester 3/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/navigations/README.md",
+          "localPath": "patterns/navigations/README.md"
+        }
+      ],
       "css": [
         {
           "name": "navigation",
@@ -984,5 +1016,5 @@ const patternManifest_f1cf0042c0476ea5affceb17cbc7334dd51f889a = {
   }
 };
 
-patternBotIncludes(patternManifest_f1cf0042c0476ea5affceb17cbc7334dd51f889a);
+patternBotIncludes(patternManifest_901b2631a58a9e23dc954d78eeae2b812b457d98);
 }());
