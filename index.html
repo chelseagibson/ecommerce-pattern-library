@@ -1240,6 +1240,7 @@
             <li><a href="#forms--fieldset">Fieldset</a></li>
             <li><a href="#forms--radio-buttons-cheese">Radio buttons cheese</a></li>
             <li><a href="#forms--radio-buttons">Radio buttons</a></li>
+            <li><a href="#forms--required">Required</a></li>
             <li><a href="#forms--text-area">Text area</a></li>
         </ol>
       </nav>
@@ -1476,20 +1477,8 @@
                 </i>
               </button>
               <code><pre id="forms-fieldset-code-sample-copy-chunk">&lt;form&gt;
-  &lt;fieldset class="push-0">
+  &lt;fieldset>
     &lt;legend>Credit Card Information&lt;/legend>
-    &lt;div>
-      &lt;label for="creditcardnumber">Credit Card Number&lt;/label>
-      &lt;input id="cardnumber">
-    &lt;/div>
-    &lt;div>
-      &lt;label for="date">Expiration Date&lt;/label>
-      &lt;input id="date">
-    &lt;/div>
-    &lt;div>
-      &lt;label for="cvv">CVV&lt;/label>
-      &lt;input id="cvv">
-    &lt;/div>
   &lt;/fieldset>
 &lt;/form>
 </pre></code>
@@ -1660,6 +1649,74 @@
   &lt;input type="radio" id="option7" name="meat">
   &lt;label for="option7">Chicken&lt;/label>
 &lt;/fieldset>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="pattern-details " id="forms--required" style="">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
+          <h3 class="pattern-name tera push-1-8">Required</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="forms-required-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="forms/required" hidden>
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-copy"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/forms/required.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+            </ul>
+        </div>
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="patterns/forms/required.html" scrolling="no" data-inject-css=" " ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="forms-required-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#forms-required-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              <code><pre id="forms-required-code-sample-copy-chunk">&lt;form&gt;
+  &lt;div>
+    &lt;div class="gutter">
+      &lt;label for="email" class="kilo">Credit Card Number&lt;span class="option"> (required)&lt;/span>&lt;/label>
+      &lt;input id="email" type="email" required>
+    &lt;/div>
+  &lt;/div>
+&lt;/form>
 </pre></code>
             </div>
           </div>

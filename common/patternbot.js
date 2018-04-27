@@ -444,9 +444,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/chelseagibson/Desktop/Semester 3/Semester 4/Web Dev IV/ecommerce-pattern-library
- * @version f1a6d8d00bfef73fb0f6c4224b3dae6b5f4c4189
+ * @version c625f9ec0c1b09e876d2358671c5e099e5acce07
  */
-const patternManifest_f1a6d8d00bfef73fb0f6c4224b3dae6b5f4c4189 = {
+const patternManifest_c625f9ec0c1b09e876d2358671c5e099e5acce07 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -851,6 +851,13 @@ const patternManifest_f1a6d8d00bfef73fb0f6c4224b3dae6b5f4c4189 = {
           "localPath": "patterns/forms/radio-buttons.html"
         },
         {
+          "name": "required",
+          "namePretty": "Required",
+          "filename": "required",
+          "path": "/Users/chelseagibson/Desktop/Semester 3/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/forms/required.html",
+          "localPath": "patterns/forms/required.html"
+        },
+        {
           "name": "text-area",
           "namePretty": "Text area",
           "filename": "text-area",
@@ -991,5 +998,5 @@ const patternManifest_f1a6d8d00bfef73fb0f6c4224b3dae6b5f4c4189 = {
   }
 };
 
-patternBotIncludes(patternManifest_f1a6d8d00bfef73fb0f6c4224b3dae6b5f4c4189);
+patternBotIncludes(patternManifest_c625f9ec0c1b09e876d2358671c5e099e5acce07);
 }());
