@@ -444,9 +444,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/chelseagibson/Desktop/Semester 3/Semester 4/Web Dev IV/ecommerce-pattern-library
- * @version c625f9ec0c1b09e876d2358671c5e099e5acce07
+ * @version f1cf0042c0476ea5affceb17cbc7334dd51f889a
  */
-const patternManifest_c625f9ec0c1b09e876d2358671c5e099e5acce07 = {
+const patternManifest_f1cf0042c0476ea5affceb17cbc7334dd51f889a = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -830,13 +830,6 @@ const patternManifest_c625f9ec0c1b09e876d2358671c5e099e5acce07 = {
           "localPath": "patterns/forms/drop-down.html"
         },
         {
-          "name": "fieldset",
-          "namePretty": "Fieldset",
-          "filename": "fieldset",
-          "path": "/Users/chelseagibson/Desktop/Semester 3/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/forms/fieldset.html",
-          "localPath": "patterns/forms/fieldset.html"
-        },
-        {
           "name": "radio-buttons-cheese",
           "namePretty": "Radio buttons cheese",
           "filename": "radio-buttons-cheese",
@@ -849,13 +842,6 @@ const patternManifest_c625f9ec0c1b09e876d2358671c5e099e5acce07 = {
           "filename": "radio-buttons",
           "path": "/Users/chelseagibson/Desktop/Semester 3/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/forms/radio-buttons.html",
           "localPath": "patterns/forms/radio-buttons.html"
-        },
-        {
-          "name": "required",
-          "namePretty": "Required",
-          "filename": "required",
-          "path": "/Users/chelseagibson/Desktop/Semester 3/Semester 4/Web Dev IV/ecommerce-pattern-library/patterns/forms/required.html",
-          "localPath": "patterns/forms/required.html"
         },
         {
           "name": "text-area",
@@ -998,5 +984,5 @@ const patternManifest_c625f9ec0c1b09e876d2358671c5e099e5acce07 = {
   }
 };
 
-patternBotIncludes(patternManifest_c625f9ec0c1b09e876d2358671c5e099e5acce07);
+patternBotIncludes(patternManifest_f1cf0042c0476ea5affceb17cbc7334dd51f889a);
 }());
